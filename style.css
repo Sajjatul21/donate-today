@@ -1,3 +1,120 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
+
+.container {
+    background-image: url(images/donation4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.header-section {
+    /* display: block; */
+    text-align: center;
+}
+
+.header-section h1 {
+    font-size: 50px;
+    font-weight: 900;
+    /* color: white; */
+}
+
+.donation-help {
+    margin-bottom: 60px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: tomato;
+
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+/* donate today section start */
+.donate-today-area {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.donate-today-area h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.amount-option {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.amount {
+    margin: 10px;
+    color: rgb(104, 95, 95);
+    background-color: rgba(196, 180, 180, 0.144);
+    padding: 40px 40px;
+    border-radius: 5px;
+}
+
+
+.amount-selector {
+    border: 3px solid salmon;
+    color: rgb(250, 122, 108);
+    background-color: rgba(238, 200, 196, 0.603);
+}
+
+.other-amount {
+    font-size: 20px;
+    color: rgba(128, 128, 128, 0.527);
+}
+
+hr {
+    margin-bottom: 40px;
+}
+
+/* end donation section today */
+
+/* Our Donate Plan start */
+.donate-plan {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.donate-plan h1 {
+    font-size: 40px;
+}
+
+.donate-items {
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+
+}
+
+.donate-card {
+    text-align: justify;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.donate-item-1 {
+    background-color: rgba(79, 157, 166, 0.1)
+}
+
+.donate-item-2 {
+    background-color: rgba(255, 89, 89, 0.1);
+}
+
+.donate-item-3 {
+    background-color: rgb(255, 244, 214);
+}
+
+/* Our Donate Plan end */
